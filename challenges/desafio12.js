@@ -4,3 +4,6 @@ db.produtos.updateMany({
 }, {
   $push: { ingredientes: "ketchup"},
 });
+db.produtos.find({}, {
+  nome: true, _id: false, ingredientes: true
+});
