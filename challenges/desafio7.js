@@ -3,7 +3,7 @@
 db.produtos.find({
   $nor: [
     { vendidos: 50 },
-    { tags: { $exists: true } }]
+    { tags: { $exists: true } }],
 }, {
-  nome: true, vendidos: true, _id: false
+  nome: true, vendidos: true, _id: false,
 });
