@@ -2,8 +2,8 @@
 db.produtos.updateMany({
   $nor: [{ ingredientes: "ketchup" }, { nome: "McChicken" }],
 }, {
-  $push: { ingredientes: "ketchup"},
+  $push: { ingredientes: "ketchup" },
 });
 db.produtos.find({}, {
-  nome: true, _id: false, ingredientes: true
+  nome: true, _id: false, ingredientes: true,
 });
