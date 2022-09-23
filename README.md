@@ -16,7 +16,7 @@
 
     Clone o repositório
 
-  - `git clone git@github.com:tryber/sd-017-mongodb-commerce.git`.
+  - `git clone git@github.com:DayanadGarcia/MongoDB-queries.git`.
 
   - Entre na pasta do repositório que você acabou de clonar:
     - `cd sd-017-mongodb-commerce`
